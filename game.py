@@ -3,7 +3,7 @@ import random
 x = random.randint(1, 50)
 
 count = 1
-while x > 0:
+for i in range(5):
     print("-" * 50)
     print(f"第{count}回合")
     y = int(input("1~50猜一個數字:"))
